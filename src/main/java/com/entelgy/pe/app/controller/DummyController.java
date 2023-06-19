@@ -23,4 +23,10 @@ public class DummyController {
         return new DummyResponse(String.valueOf(counter.incrementAndGet()), String.format(template, name));
     }
 
+ @GetMapping("nombreapellido")
+    public ObjetoBase saludo(@RequestParam(value = "name", defaultValue = "anonimo") String name,@RequestParam(value = "apellido", defaultValue = "anonimo") String apellido) {
+        return new DummyResponse(String.valueOf(counter.incrementAndGet()), String.format(template, name+" " +apellido));
+    }
+
+
 }

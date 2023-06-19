@@ -9,3 +9,5 @@ COPY build/libs/Entelgy_dummy_arqdig.jar .
 
 # Set the command to run the application
 CMD ["java", "-jar", "Entelgy_dummy_arqdig.jar"]
+
+#Dockerfile modificado
