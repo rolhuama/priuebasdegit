@@ -6,4 +6,4 @@ gradle bootjar
 docker build -t demo .
 docker tag demo rolervengador/demo
 docker push rolervengador/demo
-docker run -dp 8080:8080 demo
+docker run -dp 9000:8080 demo
