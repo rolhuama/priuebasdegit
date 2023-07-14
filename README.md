@@ -1,3 +1,0 @@
-# aplicacion
-# aplicacion
-# aplicacion
